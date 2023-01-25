@@ -8,6 +8,7 @@ namespace Observer.WeatherStation
 {
     public class WeatherData : ISubject
     {
+        // List of Observers
         private List<IObserver> _observers;
         private float _temperature;
         private float _humidity;
